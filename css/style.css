@@ -4,6 +4,7 @@
 
 body {
     font-family: sans-serif;
+    background: #E5E5E5;
 }
 
 .header {
@@ -110,4 +111,67 @@ body {
     height: 16px;
     background: #003A8C;
     margin-right: 12px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu-sidebar {
+    margin-top: 18px;
+    max-width: 192px;
+}
+
+.menu-sidebar .user {
+    padding-left: 10px;
+}
+
+.menu-sidebar .user-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-sidebar .user-name {
+    color: #262626;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.nav-link {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #595959;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.nav-link.active {
+    background: #FFFFFF;
+    color: #262626;
+}
+
+.nav-text {
+    margin-left: 8px;
+}
+
+.nav-title {
+    padding-left: 10px;
+    color: #262626;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    margin-top: 0;
 }
